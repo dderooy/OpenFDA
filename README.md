@@ -9,6 +9,10 @@ $ git clone https://github.com/dderooy/BioSymetrics.git
 
 $ cd BioSymetrics
 
+$ brew install redis
+
+$ brew services start redis
+
 $ pipenv install requests
 
 $ pipenv install redis
