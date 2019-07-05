@@ -22,10 +22,10 @@ Using Redis, the cache was designed to store hash maps for every drug in the for
 
 ```json
 "ndc_id": {
-    "brand_name": string
-    "dosage_form": string
-    "active_ing": list
-    "product_ndc": string
+    "brand_name": "string"
+    "dosage_form": "string"
+    "active_ing": "list_of_dict"
+    "product_ndc": "string"
 }
 ```
 
