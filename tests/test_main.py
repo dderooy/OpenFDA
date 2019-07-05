@@ -55,12 +55,13 @@ class TestCase(unittest.TestCase):
         results = endpoint_cache.query_cache('CLOPIDOGREL BISULFATE', 'active_ingredients', ['product_ndc'])
         self.assertEqual(results[0]['product_ndc'], '21695-665')
 
-    def test_query_by_brand_name(self):
+    def test_other_queries(self):
         endpoint_cache = Endpoint("mock")
         endpoint_cache.create_cache()
 
-        results = endpoint_cache.query_cache('Aspirin', 'brand_name', ['product_ndc'])
+        results = endpoint_cache.query_cache('Aspirin', 'brand_name', ['product_ndc', 'dosage_form'])
         self.assertEqual(results[0]['product_ndc'], '0615-8058')
+        self.assertEqual(results[1]['dosage_form'], 'TABLET, COATED')
 
 
 if __name__ == '__main__':

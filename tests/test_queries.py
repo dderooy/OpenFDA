@@ -35,9 +35,6 @@ class TestQueries(unittest.TestCase):
         endpoint = Endpoint("mock")
         endpoint.create_cache()
 
-    def test_query_cache(self):
-        endpoint = Endpoint("mock")
-        endpoint.query_cache('21695-665', 'product_ndc', ['active_ingredients'])
 
 
 
