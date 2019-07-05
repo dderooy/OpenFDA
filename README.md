@@ -5,7 +5,7 @@
 using a Mac workspace
  
 ```bash
-$ git clone https://github.com/dderooy/BioSymetrics.git
+$ git clone https://github.com/dderooy/OpenFDA.git
 
 $ cd BioSymetrics
 
