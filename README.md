@@ -20,7 +20,7 @@ $ pipenv install redis
 
 Using Redis, the cache was designed to store hash maps for every drug in the form:
 
-```json
+```
 "ndc_id": {
     "brand_name": "string"
     "dosage_form": "string"
