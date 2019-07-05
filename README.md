@@ -1,4 +1,4 @@
-# BioSymetrics Code Challenge
+# Open FDA api with Redis cache
 
 ## setup
 
