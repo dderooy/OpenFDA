@@ -7,7 +7,7 @@ using a Mac workspace
 ```bash
 $ git clone https://github.com/dderooy/OpenFDA.git
 
-$ cd BioSymetrics
+$ cd OpenFDA
 
 $ brew install redis
 
